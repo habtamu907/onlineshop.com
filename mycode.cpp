@@ -100,25 +100,25 @@ void Dis(StudentInfo* start)
              StudentInfo* it=start;
              while(it!=NULL)
                 {
-                  cout<< StudentInfo->StudentName<<",";
-                  cout<< StudentInfo->age<<",";
-                  cout<< StudentInfo->StudentId<<",";
-                  cout<< StudentInfo->SDepartment<<",";
-                  cout<< StudentInfo->CourseOne<<":";
-                  cout<< StudentInfo->Mark1<<",";
-                  cout<< StudentInfo->CourseTwo<<":";
-                  cout<< StudentInfo->Mark2<<",";
-                  cout<< StudentInfo->CourseThree<<":";
-                  cout<< StudentInfo->Mark3<<",";
-                  cout<< StudentInfo->CourseFour<<":";
-                  cout<< StudentInfo->Mark4<<",";
-                  cout<< StudentInfo->CourseFive<<":";
-                  cout<< StudentInfo->Mark5<<",";
-                  cout<< StudentInfo->CourseSix<<":";
-                  cout<< StudentInfo->Mark6<<",";
-                  cout<< StudentInfo->CourseSeven<<":";
-                  cout<< StudentInfo->Mark7<<",";
-                  cout<< StudentInfo->Year;
+                  cout<< it->StudentName<<",";
+                  cout<< it->age<<",";
+                  cout<< it->StudentId<<",";
+                  cout<< it->SDepartment<<",";
+                  cout<< it->CourseOne<<":";
+                  cout<< it->Mark1<<",";
+                  cout<< it->CourseTwo<<":";
+                  cout<< it->Mark2<<",";
+                  cout<< it->CourseThree<<":";
+                  cout<< it->Mark3<<",";
+                  cout<< it->CourseFour<<":";
+                  cout<< it->Mark4<<",";
+                  cout<< it->CourseFive<<":";
+                  cout<< it->Mark5<<",";
+                  cout<< it->CourseSix<<":";
+                  cout<< it->Mark6<<",";
+                  cout<< it->CourseSeven<<":";
+                  cout<< it->Mark7<<",";
+                  cout<< it->Year;
                   it=it->next;
                   
                 }
